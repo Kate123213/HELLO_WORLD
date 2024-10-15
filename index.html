@@ -2,11 +2,815 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main-wrapper">
+        <header>
+            <div class="header-wrapper conteiner">
+                <a href="index.html" class="logo Header-logo">
+                    <img src="png/TheBoxLogo.png" alt="icon logo">
+                    <span><i>The</i>Box</span>
+                </a>
+                <div class="mobile-menu-btn">menu</div>
+                <nav class="header-nav hidden-menu">
+                    <a href="#Hiro" class="nav-item">Home</a>
+                    <a href="#About-us" class="nav-item">About Us</a>
+                    <a href="#Projects" class="nav-item">Projects</a>
+                    <a href="#Services" class="nav-item">Services</a>
+                    <a href="#Contact" class="nav-item">Contact Us</a>
+                    <div class="mobile-menu-btn back">back</div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="Hiro" id="Hiro">
+                    <div class="conteiner">
+                        <h1 class="hiro-slogan">
+                            Building things <br> is our mission
+                        </h1>
+                    </div>
+            </section>
+            <section class="Reputationt" id="Reputationt">
+                <div class="conteiner">
+                    <div class="Title reputation-title">
+                        <h1>Our Reputationt</h1>
+                    </div>
+                    <div class="reputation-content-wrapper">
+                        <div class="reputation-item">
+                            <img class="reputation-icon" src="png/icon.png" alt="icon">
+                            <h4 class="reputation-item-textTitle">Best Services</h4>
+                            <p class="reputation-item-text">Nullam senectus porttitor in eget. Eget rutrum leo interdum.</p>
+                        </div>
+                        <div class="reputation-item">
+                            <img class="reputation-icon" src="png/icon.png" alt="icon">
+                            <h4 class="reputation-item-textTitle">Best Teams</h4>
+                            <p class="reputation-item-text">Cursus semper tellus volutpat aliquet lacus. </p>
+                        </div>
+                        <div class="reputation-item">
+                            <img class="reputation-icon" src="png/icon2.png" alt="icon">
+                            <h4 class="reputation-item-textTitle">Best Designs</h4>
+                            <p class="reputation-item-text">Ultricies at ipsum nunc, tristique nam lectus.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="About-us" id="About-us">
+                <div class="conteiner">
+                    <img src="png/HappyMan.png" alt="Happy man" class="about-us-img">
+                    <div class="about-us-content-Wrapper">
+                        <h3 class="Title about-us-title">About us</h3>
+                        <p class="about-us-text">
+                            For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along the way.<br><br>We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.
+                        </p>
+                        <div class="about-us-button">
+                            <a href="#">More on Our History</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Services" id="Services">
+                <div class="conteiner">
+                    <h1 class="Title services-title">
+                        Services
+                    </h1>
+                    <div class="services-content-wrapper">
+                        <div class="item">
+                            <img src="png/Services-House.png" alt="icon with house" class="item-logo">
+                            <div class="item-grey-strip"></div>
+                            <p class="item-text">Construction</p>
+                        </div>
+                        <div class="item">
+                            <img src="png/Services-sth.png" alt="icon" class="item-logo">
+                            <div class="item-grey-strip"></div>
+                            <p class="item-text">Renovation</p>
+                        </div>
+                        <div class="item">
+                            <img src="png/Services-hands.png" alt="icon with two hands" class="item-logo">
+                            <div class="item-grey-strip"></div>
+                            <p class="item-text">Consultation</p>
+                        </div>
+                        <div class="item">
+                            <img src="png/services-bag.png" alt="icon with bag" class="item-logo">
+                            <div class="item-grey-strip"></div>
+                            <p class="item-text">Repair Services</p>
+                        </div>
+                        <div class="item">
+                            <img src="png/Services-compass.png" alt="icon with compass" class="item-logo">
+                            <div class="item-grey-strip"></div>
+                            <p class="item-text">Architecture</p>
+                        </div>
+                        <div class="item">
+                            <img src="png/Services-socket.png" alt="icon with socket" class="item-logo">
+                            <div class="item-grey-strip"></div>
+                            <p class="item-text">Electric</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Consultation" id="Consultation">
+                <div class="conteiner">
+                    <div class="consultation-content-wrapper">
+                        <h1 class="consultation-content-textTitle">
+                            Free consultation with exceptional quality
+                        </h1>
+                        <p class="consultation-content-text">
+                            Just one call away:
+                            <span><a href="#">+84 1102 2703</a></span>
+                        </p>
+                    </div>
+                    <div class="consultation-content-button-wrapper">
+                        <a href="#">Get your consultation</a>
+                    </div>
+                </div>
+            </section>
+            <section class="Projects" id="Projects">
+                <div class="conteiner">
+                    <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <h1 class="Title progect-nav-title">
+                                Project
+                            </h1>
+                            <div class="progects-navButton-wrapper">
+                                <button class="nav-link active" id="v-pills-All-tab" data-bs-toggle="pill" data-bs-target="#v-pills-All" type="button" role="tab" aria-controls="v-pills-All" aria-selected="true">
+                                    All
+                                </button>
+                                <button class="nav-link" id="v-pills-Commercial-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Commercial" type="button" role="tab" aria-controls="v-pills-Commercial" aria-selected="false">
+                                    Commercial
+                                </button>
+                                <button class="nav-link" id="v-pills-Residential-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Residential" type="button" role="tab" aria-controls="v-pills-Residential" aria-selected="false">
+                                    Residential
+                                </button>
+                                <button class="nav-link" id="v-pills-Other-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Other" type="button" role="tab" aria-controls="v-pills-Other" aria-selected="false">
+                                    Other
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-All" role="tabpanel" aria-labelledby="v-pills-All-tab" tabindex="0">
+                                <div class="progectsGalary-wrapper">
+                                    <div id="carouselExampleIndicators" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+            
+                                                </div> 
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-row">
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <img src="png/left.png" alt="Left arrow"> Back
+                                            </button>
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                Next <img src="png/right.png" alt="Right arrow">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-Commercial" role="tabpanel" aria-labelledby="v-pills-Commercial-tab" tabindex="0">
+                                <div class="progectsGalary-wrapper">
+                                    <div id="carouselExampleIndicators2" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+            
+                                                </div> 
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-row">
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                                <img src="png/left.png" alt="Left arrow"> Back
+                                            </button>
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                                Next <img src="png/right.png" alt="Right arrow">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-Residential" role="tabpanel" aria-labelledby="v-pills-Residential-tab" tabindex="0">
+                                <div class="progectsGalary-wrapper">
+                                    <div id="carouselExampleIndicators3" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+            
+                                                </div> 
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-row">
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                                <img src="png/left.png" alt="Left arrow"> Back
+                                            </button>
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                                Next <img src="png/right.png" alt="Right arrow">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-Other" role="tabpanel" aria-labelledby="v-pills-Other-tab" tabindex="0">
+                                <div class="progectsGalary-wrapper">
+                                    <div id="carouselExampleIndicators4" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+            
+                                                </div> 
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="carousel-item-inner">
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="White and blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wildstone Infra Hotel</p>
+                                                            <p class="progect-item-text">2715 Ash Dr. San Jose, South Dakota</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/white-blueHouse.png" alt="Black house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Wish Stone Building</p>
+                                                            <p class="progect-item-text">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="White house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Mr. Parkinston’s House</p>
+                                                            <p class="progect-item-text">3517 W. Gray St. Utica, Pennsylvania</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progect-item">
+                                                        <div class="progecy-item-DivImg">
+                                                            <img src="png/Black-House.png" alt="Blue house">
+                                                        </div>
+                                                        <div class="progect-item-content-wrapper">
+                                                            <p class="progect-item-title">Oregano Height</p>
+                                                            <p class="progect-item-text">2464 Royal Ln. Mesa, New Jersey </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-row">
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                                                <img src="png/left.png" alt="Left arrow"> Back
+                                            </button>
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                                                Next <img src="png/right.png" alt="Right arrow">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Contact" id="Contact">
+                <div class="conteiner">
+                    <form action="post" method="post" class="contact-form">
+                        <div class="contact-form contact-text-wrapper">
+                            <h1 class="Title contact-title">What can us do for you?</h1>
+                            <p class="contact-p">We are ready to work on a project of any complexity, <br> whether it’s commercial or residential.</p>
+                        </div>
+                        <div class="contact-form-wrapper">
+                            <input type="text" placeholder="Your name*">
+                            <input type="email" placeholder="Your email*">
+                        </div>
+                        <div class="contact-form-wrapper">
+                            <select name="qwe" id="qwe">
+                                <option value="0" selected disabled>Reason for Contacting*</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <input type="tel" placeholder="Your phone*">
+                        </div>
+                        <textarea  class="contact-form-textarea" name="ewq" id="ewq" cols="30" rows="10" placeholder="Message"></textarea>
+                        <span class="contact-form-span"> <span>*</span> indicates a required field</span>
+                        <div class="Contact-button">
+                            <input type="submit" class="contact-form-submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="Bottom" id="Bottom">
+                <div class="conteiner">
+                    <div class="Bottom-ColumOne-wrapper">
+                        <div class="columOne-content-wrapper">
+                            <div class="columOne-content-titleWrapper">
+                                <h4 class="title-ColorBlue marginBottom">ADDRESS:</h4>
+                                <h4 class="title-ColorBlue marginBottom">PHONE:</h4>
+                                <h4 class="title-ColorBlue marginBottom">EMAIL:</h4>
+                            </div>    
+                            <div class="columOne-content-textWrapper">
+                                <p>6391 Elgin St. Celina, Delaware 10299</p>
+                                <p>+84 1102 2703</p>
+                                <p>hello@thebox.com</p>
+                            </div>
+                        </div>
+                        <div class="Bottom-img-wrapper">
+                            <a href="index.html" class="logo Bottom-conteiner-img">
+                                <img src="png/TheBoxLogo.png" alt="icon logo">
+                                <span><i>The</i>Box</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="Bottom-columTwo-wrapper">
+                        <div class="form-wrapper">
+                            <h4 class="title-ColorBlue rightColum-TopTitle">NEWSLETTER:</h4>
+                            <form action="post" method="post" class="text-form">
+                                <input type="email" placeholder="Your email here">
+                                <span class="form-span">
+                                    <input class="form-span-input" type="submit" value="Subscribe">
+                                </span>
+                            </form>
+                        </div>
+                        <div class="SOCIAL-wrapper">
+                            <h4 class="title-ColorBlue rightColum-BottomTitle">SOCIAL:</h4>
+                            <div class="form-SOCIAL-img">
+                                <a href="#" class="form-SOCIAL-img-a" ><img src="png/icon-facebook.png" alt="icon FaceBook"></a>
+                                <a href="#" class="form-SOCIAL-img-a"><img src="png/icon-linkedin.png" alt="icon linkedin"></a>
+                                <a href="#" class="form-SOCIAL-img-a"><img src="png/icon-twitter.png" alt="icon Twiter"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="Footer" id="Footer">
+                <div class="conteiner">
+                    <h2 class="footer-text">TheBox Company © 2022. All Rights Reserved</h2>
+                </div>
+            </section>
+        </footer>
+        <div class="scroll-to-top IsShowBtn">
+            ↑
+        </div>
+    </div>
+
+
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>   
 </body>
 </html>
